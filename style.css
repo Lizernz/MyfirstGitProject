@@ -1,4 +1,65 @@
-h1 {
-    text-align:center;
-    color:red;
-}   
+.city-input {
+    padding: 15px 55px 15px 55px;
+    border-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(255, 192, 203, 0.249);
+    color: black;
+  }
+  .search {
+    background-color: rgba(226, 43, 192, 0.563);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  .CurrentCity {
+    font-family: "Rakkas", serif;
+    font-size: 100px;
+    text-align: left;
+  }
+  
+  img {
+    width: 50px;
+  }
+  
+  .DateTime,
+  .degrees {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  .degrees {
+    font-size: 100px;
+    display: inline;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .temperature {
+    font-size: 30px;
+    display: inline;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  span {
+    color: brown;
+    font-size: 30px;
+    display: inline;
+    font-family: "Cormorant Garamond", serif;
+  }
+  footer {
+    font-family: "Cormorant Garamond", serif;
+  
+    padding: 30px 15px 30px 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 400px;
+    background-color: white;
+  }
+  
